@@ -1,0 +1,48 @@
+if address_bus = std_logic_vector(to_unsigned(0, 32)) then
+	data_bus <= X"83";
+end if;
+if address_bus = std_logic_vector(to_unsigned(1, 32)) then
+	data_bus <= X"20";
+end if;
+if address_bus = std_logic_vector(to_unsigned(2, 32)) then
+	data_bus <= X"00";
+end if;
+if address_bus = std_logic_vector(to_unsigned(3, 32)) then
+	data_bus <= X"7d";
+end if;
+if address_bus = std_logic_vector(to_unsigned(4, 32)) then
+	data_bus <= X"23";
+end if;
+if address_bus = std_logic_vector(to_unsigned(5, 32)) then
+	data_bus <= X"1e";
+end if;
+if address_bus = std_logic_vector(to_unsigned(6, 32)) then
+	data_bus <= X"10";
+end if;
+if address_bus = std_logic_vector(to_unsigned(7, 32)) then
+	data_bus <= X"5c";
+end if;
+if address_bus = std_logic_vector(to_unsigned(8, 32)) then
+	data_bus <= X"23";
+end if;
+if address_bus = std_logic_vector(to_unsigned(9, 32)) then
+	data_bus <= X"20";
+end if;
+if address_bus = std_logic_vector(to_unsigned(10, 32)) then
+	data_bus <= X"10";
+end if;
+if address_bus = std_logic_vector(to_unsigned(11, 32)) then
+	data_bus <= X"5e";
+end if;
+if address_bus = std_logic_vector(to_unsigned(2000, 32)) then
+	data_bus <= X"11";
+end if;
+if address_bus = std_logic_vector(to_unsigned(2001, 32)) then
+	data_bus <= X"AA";
+end if;
+if address_bus = std_logic_vector(to_unsigned(2002, 32)) then
+	data_bus <= X"00";
+end if;
+if address_bus = std_logic_vector(to_unsigned(2003, 32)) then
+	data_bus <= X"FF";
+end if;
